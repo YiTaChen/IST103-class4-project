@@ -4,9 +4,31 @@
 }
 
 #second_one {
-  font-size: 33px;
+  font-sie: 03px;
   color: #99ff00;
   font-weight: bold;
+}
+
+.padding_test {
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+  border: 5px solid #000;
+}
+
+.border-box {
+  border: 20px solid #3700ff;
+  background-color: coral;
+  width: 600px;
+  box-sizing: border-box;
+}
+
+.content-box {
+  border: 0px solid#3700ff;
+  background-color: coral;
+  width: 600px;
+  box-sizing: content-box;
 }
 
 h2 {
@@ -23,4 +45,58 @@ section.ol.items li {
 .ulType {
   font-size: 24px;
   color: #ee9140;
+}
+
+.toolbar {
+  background-color: #333;
+  padding: 15px 0;
+}
+
+.toolbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.toolbar li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.toolbar li:last-child {
+  margin-right: 0;
+}
+
+.toolbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.toolbar a:hover {
+  background-color: #555;
+}
+
+.flex-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 20% 30px;
+  grid-template-rows: 1fr 1fr 1fr 2fr;
+}
+
+.yello-bg {
+  background-color: yellow;
+  grid-column: 2/5;
+  grid-row: 3/4;
+}
+.blue-bg {
+  background-color: blue;
+  grid-column: 1/2;
+  grid-row: 1/5;
+}
+.purple-bg {
+  background-color: purple;
+}
+.green-bg {
+  background-color: green;
 }
